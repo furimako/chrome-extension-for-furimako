@@ -5,7 +5,7 @@ const queries = {
         + 'document.querySelectorAll(\'#JSID_baseRefreshNxTop2 > div.m-miM10 > div > h3 > a\').forEach(v => window.open(v.href));',
     hackerNews: 'document.querySelectorAll(\'table.itemlist > tbody > tr.athing > td:nth-child(3) > a\')'
         + '.forEach((v, i) => { if (i < 10) window.open(v.href) });',
-    google: 'document.querySelectorAll(\'div.srg > div.g > div > div > div:nth-child(1) > a\').forEach(v => window.open(v.href));'
+    google: 'document.querySelectorAll(\'#rso > div.bkWMgd:nth-child(1) > div.srg > div.g > div > div.rc > div.r:nth-child(1) > a\').forEach(v => window.open(v.href));'
 }
 
 chrome.commands.onCommand.addListener((command) => {
