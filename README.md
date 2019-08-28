@@ -1,4 +1,4 @@
-# open-news-today
+# Open ALL At Once
 Google Chrome Extension for opening ALL links at once.
 
 ## How to Use
