@@ -1,14 +1,23 @@
 {
-  "name": "open-news-today",
-  "version": "1.0",
-  "description": "Google Chrome Extension for opening today's news.",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "page_action": {
-    "default_popup": "popup.html"
-  },
-  "manifest_version": 2
+    "name": "open-all",
+    "version": "1.0",
+    "description": "Google Chrome Extension for opening ALL links at once.",
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "commands": {
+        "open-all-at-once": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+A",
+                "mac": "Command+Shift+A"
+            },
+            "description": "Open ALL At Once"
+        }
+    },
+    "manifest_version": 2
 }

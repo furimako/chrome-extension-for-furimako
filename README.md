@@ -1,15 +1,9 @@
 # open-news-today
-Google Chrome Extension for opening today's news.
+Google Chrome Extension for opening ALL links at once.
 
 ## How to Use
-### Nikkei News
-1. Go to [Nikkei HP](https://www.nikkei.com/)
-1. Open this Extension menu and press [Open ALL] button.
+Enter [Ctrl + Shift + A] on below sites.
 
-### Hacker News
-1. Go to [Hacker News HP](https://news.ycombinator.com/)
-1. Open this Extension menu and press [Open ALL] button.
-
-### Google Search
-1. Search something on [Google](https://www.google.com/)
-1. Open this Extension menu and press [Open ALL] button.
+- [Nikkei](https://www.nikkei.com/)
+- [Hacker News](https://news.ycombinator.com/)
+- [Google Search](https://www.google.com/)
