@@ -1,7 +1,7 @@
 /* global chrome */
 
 const queries = {
-    nikkei: 'document.querySelectorAll(\'body > main > div.k-hub-body > div.k-layout__container > div > div > div > div > div.k-hub-card.k-hub-card--no-ellipsis > div > a\').forEach(v => window.open(v.href));',
+    nikkei: 'document.querySelectorAll(\'kite-headline > div > div > div > div > a\').forEach(v => window.open(v.href));',
     hackerNews: 'document.querySelectorAll(\'table.itemlist > tbody > tr.athing > td:nth-child(3) > a\')'
         + '.forEach((v, i) => { if (i < 10) window.open(v.href) });'
 }
