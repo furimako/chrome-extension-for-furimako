@@ -13,8 +13,8 @@
     "commands": {
         "open-all-at-once": {
             "suggested_key": {
-                "default": "Ctrl+Shift+A",
-                "mac": "Command+Shift+A"
+                "default": "Ctrl+Shift+O",
+                "mac": "Command+Shift+O"
             },
             "description": "Open ALL At Once"
         }
