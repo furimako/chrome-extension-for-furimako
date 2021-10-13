@@ -1,8 +1,5 @@
-# Open ALL At Once
-Google Chrome Extension for opening ALL links at once.
 
-## How to Use
-Enter [Ctrl (Command) + Shift + P] on below sites.
-
-- [Nikkei](https://www.nikkei.com/)
-- [Hacker News](https://news.ycombinator.com/)
+# Google Chrome Extension for furimako
+You can
+- open all links at once for [Nikkei](https://www.nikkei.com/) and [Hacker News](https://news.ycombinator.com/) websites with [Ctrl (Command) + Shift + L]
+- toggle pin setting on the current Chrome tab with [Ctrl (Command) + Shift + P]

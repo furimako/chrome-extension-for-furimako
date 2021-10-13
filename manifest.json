@@ -1,23 +1,30 @@
 {
-    "name": "open-all",
+    "name": "chrome-extension-for-furimako",
     "version": "1.0",
-    "description": "Google Chrome Extension for opening ALL links at once.",
-    "permissions": ["activeTab"],
+    "description": "Google Chrome Extension for furimako",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["*://*/*"],
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "service_worker": "background.js"
     },
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html"
     },
     "commands": {
         "open-all-at-once": {
             "suggested_key": {
+                "default": "Ctrl+Shift+L",
+                "mac": "Command+Shift+L"
+            },
+            "description": "open all links at once for Nikkei and Hacker News websites"
+        },
+        "toggle-pin": {
+            "suggested_key": {
                 "default": "Ctrl+Shift+P",
                 "mac": "Command+Shift+P"
             },
-            "description": "Open ALL At Once"
+            "description": "toggle pin setting on the current Chrome tab"
         }
     },
-    "manifest_version": 2
+    "manifest_version": 3
 }
