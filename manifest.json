@@ -20,8 +20,8 @@
         },
         "toggle-pin": {
             "suggested_key": {
-                "default": "Ctrl+Shift+P",
-                "mac": "Command+Shift+P"
+                "default": "Ctrl+Shift+K",
+                "mac": "Command+Shift+K"
             },
             "description": "toggle pin setting on the current Chrome tab"
         }
